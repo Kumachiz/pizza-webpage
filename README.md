@@ -1,21 +1,16 @@
 # _Ping Pong "The Game"_
 
-#### _Ping Pong "The Game", 10.19.2016_
+#### _Pizza Town, 11.9.2016_
 
 ##### By _**Michael Munyaneza**_
 
 ## Description
-
-_This is a number game that will return Ping when you enter a number divisible buy 3, Pong when the number is divisible by 5, and PingPong when a number is divisible by 15. The program also displays numbers before and after. If the number is even the results will include reminders that come at the end of the results._
+_Here you can oder pizza by selecting preferred sizes. All selections have different pricing._
 ## Specifications
-## Input
-1. _A number divisible by 3_
-2. _A number divisible by 5_
-3. _A number divisible by 15_
-## Output
-_1._ _Every number that is divisible by 3 is replaced with Ping and last output is Ping if it's an odd number the last output will be that number._
- _2._ _Every number that is divisible by 5 is replaced with Pong and last output is Pong if it's an odd number the last output will be that number._
-  _3._ _Every number that is divisible by 15 is replaced with PingPong and last output is PingPong if it's an odd number the last output will be that number._
+  _Order processing, with Javascript and jquery._
+## Selections _Pricing is adjusted with topping selection_
+## Orders
+_After order is complete final price will be printed at the bottom of the page._
 
 ## Setup/Installation Requirements
 
@@ -27,7 +22,7 @@ _{This page is written using HTML, CSS and Javascript}_
 
 ## Known Bugs
 
-_{Your computer will lag or the current tab in your browser will freeze if you try to calculate a number that is too big, be careful.}_
+_{Some features might be disabled at the moment.}_
 
 ## Support and contact details
 
