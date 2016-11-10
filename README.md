@@ -1,4 +1,4 @@
-# _Ping Pong "The Game"_
+# _Pizza Webpage_
 
 #### _Pizza Town, 11.9.2016_
 
@@ -14,7 +14,7 @@ _After order is complete final price will be printed at the bottom of the page._
 
 ## Setup/Installation Requirements
 
-* [_Go to my Git Hub link_](https://kumachiz.github.io/intr-p3/)
+* [_Go to my Git Hub link_](https://kumachiz.github.io/pizza-webpage/)
 * _Now that you're on the program page, you can enter a number that you would like and you should see results that have either Ping, Pong, PingPong or nothing at all._
 * _.Your results should be printed below the Submit button._
 
