@@ -1,0 +1,18 @@
+#order-complete {
+  display: none;
+}
+
+.jumbotron {
+  text-align: right;
+  background-color: yellow;
+  background-image: url('http://lifefulljoy.com/wp-content/uploads/2016/09/pizza-in-hazel-park-michigan.jpg');
+  image-resolution: 1080px;
+  background-repeat: no-repeat;
+}
+/*.btn{
+  padding-bottom: 10px;
+}*/
+#submit {
+  margin-top: 19px;
+  margin-bottom: 19px;
+}
