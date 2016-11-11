@@ -5,18 +5,20 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
     <title>Pizza Town</title>
   </head>
   <body>
-
-    <div class="jumbotron">
-      <h1 class="town">Pizza Town</h1>
-    </div>
+      <div class="jumbotron">
+        <div class="town">
+          <h1> Pizza Town</h1>
+        </div>
+      </div>
 
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <h2>Order Delivery and Billing Address</h2>
+          <h1>Choose toppings</h1>
           <form id="new-contact">
 
             <div class="container">
@@ -53,21 +55,24 @@
                     <input type="checkbox" id="topping"> Tomatoes <br>
                     <input type="checkbox" id="topping"> Green Onions<br>
                     <input type="checkbox" id="topping"> Herb and Cheese Blend<br>
+                                                                              <br>
+                                                                              <br>
                   </form>
                 </div>
               </div>
-
-              <h4>Choose Pizza Size</h4>
-              <select class="form-control, col-xs-4" id="sizes">
-                <option value="8">Small - 12" - $10</option>
-                <option value="10">Large - 14" - $14</option>
-                <option value="12">Family Size - 16" - $17</option>
-              </select>
+              <div class="row">
+                <h3>Choose Pizza Size</h3>
+                <select class="form-control, col-xs-4" id="sizes">
+                  <option value="8">Small - 12" - $10</option>
+                  <option value="10">Large - 14" - $14</option>
+                  <option value="12">Family Size - 16" - $17</option>
+                </select>
+              </div>
               <br>
       	      <div class="row">
       		        <form class="form-horizontal ">
 
-                    <h2>Billing Address</h2>
+                    <h3>Billing Address</h3>
 
                     <div class="control-group">
                       <label class="control-label">Full Name</label>
@@ -121,15 +126,18 @@
                     </div>
               </div>
             </form>
+            <div class="row">
+              <span id="submit" class="btn btn-default">Place Order </span>
+              <br></br>
+              
 
-            <span id="submit" class="btn btn-default">Place Order</span>
-            <br></br>
-
-            <div id="pizza-cost">
-              <div id="order-complete">
-                <img src="img/pizza-life.jpg" alt="pizza ready image"/>
+              <div id="pizza-cost">
+                <div id="order-complete">
+                  <img src="img/pizza-life.jpg" alt="pizza ready image"/>
+                </div>
               </div>
             </div>
+
             </div>
         </div>
   </body>
