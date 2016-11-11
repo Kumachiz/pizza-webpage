@@ -11,8 +11,12 @@
 }
 /*.btn{
   padding-bottom: 10px;
-}*/
+}*/‰
 #submit {
   margin-top: 19px;
   margin-bottom: 19px;
+}
+.town{
+  color: red;
+  padding: 15px 15px 15px 15px;
 }

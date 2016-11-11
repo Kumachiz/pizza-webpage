@@ -10,132 +10,127 @@
   <body>
 
     <div class="jumbotron">
-      <h1>Pizza Town</h1>
+      <h1 class="town">Pizza Town</h1>
     </div>
 
     <div class="container">
-
       <div class="row">
-
         <div class="col-md-6">
-        <h2>Order Delivery and Billing Address</h2>
-        <form id="new-contact">
+          <h2>Order Delivery and Billing Address</h2>
+          <form id="new-contact">
 
-      <div class="container">
-       <div class="row">
-        <div class="col-md-4">
-          <h4>COWBOY</h4>
-          <form method="get">
-            <input type="checkbox" > Red Sauce<br>
-            <input type="checkbox" id="topping"> Pepperoni<br>
-            <input type="checkbox" id="topping"> Italian <br>
-            <input type="checkbox" id="topping"> Sausage<br>
-            <input type="checkbox" id="topping"> Mushrooms<br>
-            <input type="checkbox" id="topping"> Olives<br>
-            <input type="checkbox" id="topping"> Herb and Cheese Blend<br>
-          </form>
-        </div>
-        <div class="col-md-4">
-          <h4>CHICKEN BACON ARTICHOKE</h4>
-          <form method="get">
-            <input type="checkbox" id="topping"> Creamy Garlic Sauce<br>
-            <input type="checkbox" id="topping">  Chicken<br>
-            <input type="checkbox" id="topping"> Bacon <br>
-            <input type="checkbox" id="topping"> Artichoke Hearts<br>
-            <input type="checkbox" id="topping"> Spinach<br>
-            <input type="checkbox" id="topping"> Parmesan<br>
-            <input type="checkbox" id="topping"> Zesty Herbs<br>
-          </form>
-        </div>
-        <div class="col-md-4">
-          <h4>CHICKEN GARLIC</h4>
-          <form method="get">
-            <input type="checkbox" id="topping"> Creamy Garlic Sauce<br>
-            <input type="checkbox" id="topping"> Chicken<br>
-            <input type="checkbox" id="topping"> Tomatoes <br>
-            <input type="checkbox" id="topping"> Green Onions<br>
-            <input type="checkbox" id="topping"> Herb and Cheese Blend<br>
-          </form>
-        </div>
-      </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                  <h4>COWBOY</h4>
+                  <form method="get">
+                    <input type="checkbox" > Red Sauce<br>
+                    <input type="checkbox" id="topping"> Pepperoni<br>
+                    <input type="checkbox" id="topping"> Italian <br>
+                    <input type="checkbox" id="topping"> Sausage<br>
+                    <input type="checkbox" id="topping"> Mushrooms<br>
+                    <input type="checkbox" id="topping"> Olives<br>
+                    <input type="checkbox" id="topping"> Herb and Cheese Blend<br>
+                  </form>
+                </div>
+                <div class="col-md-4">
+                  <h4>CHICKEN BACON ARTICHOKE</h4>
+                  <form method="get">
+                    <input type="checkbox" id="topping"> Creamy Garlic Sauce<br>
+                    <input type="checkbox" id="topping">  Chicken<br>
+                    <input type="checkbox" id="topping"> Bacon <br>
+                    <input type="checkbox" id="topping"> Artichoke Hearts<br>
+                    <input type="checkbox" id="topping"> Spinach<br>
+                    <input type="checkbox" id="topping"> Parmesan<br>
+                    <input type="checkbox" id="topping"> Zesty Herbs<br>
+                  </form>
+                </div>
+                <div class="col-md-4">
+                  <h4>CHICKEN GARLIC</h4>
+                  <form method="get">
+                    <input type="checkbox" id="topping"> Creamy Garlic Sauce<br>
+                    <input type="checkbox" id="topping"> Chicken<br>
+                    <input type="checkbox" id="topping"> Tomatoes <br>
+                    <input type="checkbox" id="topping"> Green Onions<br>
+                    <input type="checkbox" id="topping"> Herb and Cheese Blend<br>
+                  </form>
+                </div>
+              </div>
 
-        <h4>Choose Pizza Size</h4>
-        <select class="form-control, col-xs-4" id="sizes">
-          <option value="8">Small - 12" - $10</option>
-          <option value="10">Large - 14" - $14</option>
-          <option value="12">Family Size - 16" - $17</option>
-        </select>
-        <br>
-      	<div class="row">
-      		 <form class="form-horizontal ">
-             <fieldset>
-                <h2>Billing Address</h2>
+              <h4>Choose Pizza Size</h4>
+              <select class="form-control, col-xs-4" id="sizes">
+                <option value="8">Small - 12" - $10</option>
+                <option value="10">Large - 14" - $14</option>
+                <option value="12">Family Size - 16" - $17</option>
+              </select>
+              <br>
+      	      <div class="row">
+      		        <form class="form-horizontal ">
 
-                <div class="control-group">
-                    <label class="control-label">Full Name</label>
-                    <div class="controls">
+                    <h2>Billing Address</h2>
+
+                    <div class="control-group">
+                      <label class="control-label">Full Name</label>
+                      <div class="controls">
                         <input id="full-name" name="full-name" type="text" placeholder="full name"
                         class="input-xlarge">
                         <p class="help-block"></p>
                     </div>
-                </div>
-                <div class="control-group">
-                    <label class="control-label">Email</label>
+                    </div>
+                    <div class="control-group">
+                      <label class="control-label">Email</label>
                     <div class="controls">
                         <input id="address-line1" name="address-line1" type="text" placeholder="Email"
                         class="input-xlarge">
                         <p class="help-block">Your email address</p>
                     </div>
-                </div>
+                    </div>
 
-                <div class="control-group">
-                    <label class="control-label">Address</label>
+                    <div class="control-group">
+                      <label class="control-label">Address</label>
                     <div class="controls">
                         <input id="address-line1" name="address-line1" type="text" placeholder="address"
                         class="input-xlarge">
                         <p class="help-block">Street address</p>
                     </div>
-                </div>
-
-                <div class="control-group">
-                    <label class="control-label">City</label>
-                    <div class="controls">
-                        <input id="city" name="city" type="text" placeholder="city" class="input-xlarge">
-                        <p class="help-block"></p>
                     </div>
-                </div>
 
-                <div class="control-group">
-                    <label class="control-label">State</label>
+                    <div class="control-group">
+                      <label class="control-label">City</label>
+                    <div class="controls">
+                      <input id="city" name="city" type="text" placeholder="city" class="input-xlarge">
+                      <p class="help-block"></p>
+                    </div>
+                    </div>
+
+                    <div class="control-group">
+                      <label class="control-label">State</label>
                     <div class="controls">
                         <input id="region" name="region" type="text" placeholder="state"
                         class="input-xlarge">
                         <p class="help-block"></p>
                     </div>
-                </div>
+                    </div>
 
-                <div class="control-group">
-                    <label class="control-label">Zip Code</label>
-                <div class="controls">
-                  <input id="postal-code" name="postal-code" type="text" placeholder="zip code" class="input-xlarge">
-                  <p class="help-block"></p>
-          </div>
+                    <div class="control-group">
+                      <label class="control-label">Zip Code</label>
+                    <div class="controls">
+                      <input id="postal-code" name="postal-code" type="text" placeholder="zip code" class="input-xlarge">
+                      <p class="help-block"></p>
+                    </div>
+                    </div>
+              </div>
+            </form>
+
+            <span id="submit" class="btn btn-default">Place Order</span>
+            <br></br>
+
+            <div id="pizza-cost">
+              <div id="order-complete">
+                <img src="img/pizza-life.jpg" alt="pizza ready image"/>
+              </div>
+            </div>
+            </div>
         </div>
-      </div>
-    </form>
-
-    <span id="submit" class="btn btn-default">Place Order</span>
-    <br></br>
-
-    <div id="pizza-cost">
-      <div id="order-complete">
-        <img src="img/pizza-life.jpg" alt="pizza ready image"/>
-      </div>
-
-    </div>
-
-
-    </div>
-    </div>
   </body>
 </html>
