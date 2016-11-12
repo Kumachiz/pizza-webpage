@@ -8,11 +8,6 @@ Pizza.prototype.addTotalCost = function()  {
   return (this.toppings + this.sizes);
 }
 
-
-
-
-
-
 //user interface logic
 $(function() {
   $("#submit").click(function() {
@@ -27,7 +22,7 @@ $(function() {
       }
     }
 
-    toppings = count * 0.85
+    toppings = count * 0.25 
     var newPizza = new Pizza(sizes, toppings);
 
     newPizza.cost = newPizza.addTotalCost();

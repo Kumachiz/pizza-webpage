@@ -7,8 +7,14 @@
 ## Description
 _Here you can oder pizza by selecting preferred sizes. All selections have different pricing._
 ## Specifications
-  _Order processing, with Javascript and jquery._
+  _Order processing, with Javascript and Jquery._
+###Input:
+  _1.Pizza toppings, size and length are selected._
+  _Example: A 14" pizza and 4 toppings are selected._
 ## Selections _Pricing is adjusted with topping selection_
+###Output:
+  _1.Pizza total price plus topping price are added._
+  _2.Example: $14 plus $1 for toppings are charged._
 ## Orders
 _After order is complete final price will be printed at the bottom of the page._
 
